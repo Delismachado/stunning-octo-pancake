@@ -1,0 +1,10 @@
+ {% extends 'template.html' %} {% block body %}
+<ol>
+    <li><a href="/soma">Somar</a></li>
+    <li><a href="/subtracao">Subtrair</a></li>
+    <li><a href="/divisao">Divisão</a></li>
+    <li><a href="/multiplicar">Multiplicar</a></li>
+</ol>
+{% for i in lista %}
+<li>{i}</li>
+{% endfor %} {% endblock %}
