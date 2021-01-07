@@ -7,7 +7,7 @@ print(f'''
         [1] somar
         [2] subtrair
         [3] dividir
-        [4] multiplicar
+        [4] mult
         [5] sair ''')
 
 opr = input('Digite a operação que deseja realizar :) ')
